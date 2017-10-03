@@ -38,9 +38,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<!-- Hide site from indexation-->	 
-	<meta name="robots" content = "noindex, nofollow">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>			
+	<meta name="robots" content = "noindex, nofollow">		
 
 </head>
 <body>
@@ -71,9 +69,6 @@
 		<div class="bar2"></div>
 		<div class="bar3"></div>
 	</div>
-
-	<script src="js/script.js"></script>
-
 
 <!--main-content-->
 	<section class="container-fluid main-content  extra-margin">
@@ -177,36 +172,9 @@
 		</div>
 	</section>
 
-    <script>
-//start gallery filter
-
-$(document).ready(function(){
-
-    $(".filter-button").click(function(){
-        var value = $(this).attr('data-filter');
-        
-        if(value == "all")
-        {
-
-            $('.filter').show('1000');
-        }
-        else
-        {
-
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
-        }
-    });
-    
-    if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
-});
-</script>
-<script src="bootstrap/js/bootstrap.js"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="js/script.js"></script>
 </body>
 </html>
 

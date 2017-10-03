@@ -38,9 +38,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<!-- Hide site from indexation-->	 
-	<meta name="robots" content = "noindex, nofollow">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>			
+	<meta name="robots" content = "noindex, nofollow">			
 
 </head>
 <body>
@@ -121,26 +119,12 @@
 		</div>
 	</section>
 
-    <script>
-      function initMap() {
-        var aluflam = {lat: 53.17683, lng: 20.744671};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 8,
-          center: aluflam,
-		  
-
-        });
-        var marker = new google.maps.Marker({
-          position: aluflam,
-          map: map,
-
-        });
-      }
-    </script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>	
+	<script src="bootstrap/js/bootstrap.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA7QG3EkgbsmeXDgAhqA7iN4ISxKSGq3c&callback=initMap"
         async defer></script>
-
-	<script src="bootstrap/js/bootstrap.js"></script>	
 
 </body>
 </html>

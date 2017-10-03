@@ -443,9 +443,19 @@ hr {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   .slider-text {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .slider-big {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .slider-small {
+    display: none !important;
   }
 }
 /*---box on tha main---*/
