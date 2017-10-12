@@ -573,12 +573,18 @@ hr {
   border-radius: 2px;
   color: #fff;
   background-color: #f9a13a;
-  width: 300px;
+  width: 60%;
   text-align: center;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
+}
+@media (max-width: 500px) {
+  .btn-basic {
+    width: 200px;
+    font-size: 16px;
+  }
 }
 .btn-basic:hover {
   background-color: #444444;

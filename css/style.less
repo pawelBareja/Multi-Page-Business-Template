@@ -222,9 +222,14 @@
 	border-radius:2px;
 	color:#fff;
 	background-color:@logo-yellow;
-	width:300px;
+	width:60%;
 	text-align:center;
 	.transition(1s);
+	
+	@media (max-width:500px){
+		width:200px;
+		font-size:@p-font-size;
+	}
 	
 		&:hover {
 			background-color:@menu-secondary;
