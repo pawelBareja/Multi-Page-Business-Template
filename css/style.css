@@ -235,6 +235,8 @@
   display: block;
 }
 body {
+  max-width: 1600px !important;
+  margin: 0 auto !important;
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   line-height: 18px 2;
@@ -411,9 +413,16 @@ hr {
 }
 /*slider---------------------------*/
 .main-content {
-  position: absolute;
-  top: 125px;
-  left: 0;
+  max-width: 1600px;
+  /*margin:0 auto;
+	position:absolute;
+	top:125px;
+	left:0;
+	
+	@media (min-width:1600px){
+		left:50%;
+		.translateX(-50%);
+	}*/
 }
 @media (max-width: 768px) {
   .main-content {

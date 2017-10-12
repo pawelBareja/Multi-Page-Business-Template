@@ -1,4 +1,6 @@
 body {
+  max-width: 1600px !important;
+  margin: 0 auto !important;
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   line-height: 18px 2;
